@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Toothpaste",
+    "availableQuantity": 0
+  },
+  {
+    "id": "2",
+    "name": "Plaster",
+    "availableQuantity": 10
+  },
+  {
+    "id": "3",
+    "name": "Drill",
+    "availableQuantity": 7
+  },
+  {
+    "id": "4",
+    "name": "Electric Toothbrush",
+    "availableQuantity": 7
+  },
+  {
+    "id": "5",
+    "name": "Listerine ",
+    "availableQuantity": 12
+  },
+  {
+    "id": "6",
+    "name": "Sensodyne ",
+    "availableQuantity": 3
+  },
+  {
+    "id": "7",
+    "name": "3D White Strips",
+    "availableQuantity": 10
+  },
+  {
+    "id": "8",
+    "name": "Colgate",
+    "availableQuantity": 15
+  },
+  {
+    "id": "9",
+    "name": "Cleaning Tablets",
+    "availableQuantity": 11
+  },
+  {
+    "id": "10",
+    "name": "Mint Dental Flossers",
+    "availableQuantity": 12
+  },
+  {
+    "id": "11",
+    "name": "Fluoride Anticavity Mouth Rinse",
+    "availableQuantity": 14
+  },
+  {
+    "id": "12",
+    "name": "GUM Soft-Picks Advanced Cleaning",
+    "availableQuantity": 10
+  }
+]
