@@ -21,8 +21,8 @@ export default function RootLayout({
         className="antialiased"
       >
         <Navbar />
+        <main className="flex-grow">{children}</main>
 
-        {children}
         <Footer />
       </body>
     </html>
