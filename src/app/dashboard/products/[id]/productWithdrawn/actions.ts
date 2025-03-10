@@ -15,7 +15,7 @@ export async function updateProduct(formData: FormData) {
        if (!response.ok) {
           throw new Error('Failed to withdrawing product');
        }
-       const updatedProduct = await response.json();
+       await response.json();
   } catch (error) {
       console.error('Error withdrawing product units :', error);
   }

@@ -1,7 +1,3 @@
-import Footer from "./footer/page";
-import Navbar from "./navbar/page";
-
- 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">

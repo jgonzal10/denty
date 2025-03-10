@@ -1,7 +1,5 @@
 'use client'
 import { Product } from 'app/types/Product';
-import { useState } from 'react';
-import { mutate } from 'swr';
 import Form from 'next/form'
 import { updateProduct } from './actions';
 

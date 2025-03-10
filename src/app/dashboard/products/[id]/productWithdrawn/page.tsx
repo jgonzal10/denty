@@ -1,7 +1,8 @@
 import { Product } from "app/types/Product";
 import ProductWithdrawn from "./productWithdrawnClient";
 
-export default async function ProductWithdrawnPage({ params }: { params: { id: string } }){
+
+export default async function ProductWithdrawnPage({ params }: {params: {id:string}}){
     const { id } = await params
 
 
