@@ -2,15 +2,14 @@ import Link from "next/link";
 
 export default async function Navbar() {
         return (
-            <nav className="sticky top-0 left-0 z-50 w-full bg-gray-800 text-white md:px-8 py-4">
-            <div className="w-full flex justify-between items-center md:px-8 py-2">
-                <Link href="/dashboard/settings" className="hover:underline">
+            <nav className="bg-gray-800 text-white p-4">
+            <div className="container mx-auto flex justify-start">
+            <Link href="/dashboard/products" className="mr-4 hover:text-gray-400 transition duration-300">
+                  Overview
+                </Link>
+                <Link href="/dashboard/settings" className="mr-4 hover:text-gray-400 transition duration-300">
                   Settings
                 </Link>
-                <Link href="/dashboard/products" className="hover:underline">
-                  Products
-                </Link>
-
             </div>
           </nav>
         )

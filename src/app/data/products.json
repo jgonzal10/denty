@@ -2,27 +2,27 @@
   {
     "id": "1",
     "name": "Toothpaste",
-    "availableQuantity": 0
+    "availableQuantity": 6
   },
   {
     "id": "2",
     "name": "Plaster",
-    "availableQuantity": 10
+    "availableQuantity": 0
   },
   {
     "id": "3",
     "name": "Drill",
-    "availableQuantity": 7
+    "availableQuantity": 0
   },
   {
     "id": "4",
-    "name": "Electric Toothbrush",
-    "availableQuantity": 7
+    "name": "Toothbrush",
+    "availableQuantity": 0
   },
   {
     "id": "5",
     "name": "Listerine ",
-    "availableQuantity": 12
+    "availableQuantity": 9
   },
   {
     "id": "6",
@@ -31,32 +31,52 @@
   },
   {
     "id": "7",
-    "name": "3D White Strips",
+    "name": "Strips",
     "availableQuantity": 10
   },
   {
     "id": "8",
     "name": "Colgate",
-    "availableQuantity": 15
+    "availableQuantity": 0
   },
   {
     "id": "9",
-    "name": "Cleaning Tablets",
+    "name": "Tablets",
     "availableQuantity": 11
   },
   {
     "id": "10",
-    "name": "Mint Dental Flossers",
+    "name": "Flossers",
     "availableQuantity": 12
   },
   {
     "id": "11",
-    "name": "Fluoride Anticavity Mouth Rinse",
-    "availableQuantity": 14
+    "name": "Fluoride",
+    "availableQuantity": 0
   },
   {
     "id": "12",
-    "name": "GUM Soft-Picks Advanced Cleaning",
+    "name": "Gum",
     "availableQuantity": 10
+  },
+  {
+    "id": "13",
+    "name": "Curette",
+    "availableQuantity": 0
+  },
+  {
+    "id": "14",
+    "name": "Suction",
+    "availableQuantity": 13
+  },
+  {
+    "id": "15",
+    "name": "Syringe",
+    "availableQuantity": 0
+  },
+  {
+    "id": "16",
+    "name": "Carrier",
+    "availableQuantity": 0
   }
 ]

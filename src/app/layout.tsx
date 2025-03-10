@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Footer from "./dashboard/footer/page";
+import Navbar from "./dashboard/navbar/page";
 
 
 
@@ -18,7 +20,10 @@ export default function RootLayout({
       <body
         className="antialiased"
       >
+        <Navbar />
+
         {children}
+        <Footer />
       </body>
     </html>
   );
