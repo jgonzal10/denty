@@ -1,12 +1,12 @@
 'use client'
-import { Product } from "app/types/Product";
+// import { Product } from "app/types/Product";
 import Link from "next/link";
 
-type ProductPageProps ={
-   product:Product
-}
+// type ProductPageProps ={
+//    product:Product
+// }
 
-export default function ProductPage({ product }: ProductPageProps) {
+export default function ProductPage({ product }: any) {
    return (
       
       <div className='bg-gradient-to-r from-slate-100 to-gray-100 border border-gray-100 rounded-lg p-6 hover:shadow-lg hover:border-gray-100 transition-all transform hover:scale-105 mb-6 h-full flex flex-col cursor-pointer min-h-52'>

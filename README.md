@@ -1,5 +1,7 @@
 Denty: Smart Storage System
 
+Note: When running the app make sure it is running on port 3000, If not the API calls will failed. 
+
 ## Getting Started
 
 First install dependencies:

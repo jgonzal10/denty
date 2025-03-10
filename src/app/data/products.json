@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Toothpaste",
-    "availableQuantity": 5
+    "availableQuantity": 4
   },
   {
     "id": "2",
@@ -27,12 +27,12 @@
   {
     "id": "6",
     "name": "Sensodyne ",
-    "availableQuantity": 3
+    "availableQuantity": 2
   },
   {
     "id": "7",
     "name": "Strips",
-    "availableQuantity": 10
+    "availableQuantity": 9
   },
   {
     "id": "8",
@@ -77,6 +77,6 @@
   {
     "id": "16",
     "name": "Carrier",
-    "availableQuantity": 100
+    "availableQuantity": 90
   }
 ]
