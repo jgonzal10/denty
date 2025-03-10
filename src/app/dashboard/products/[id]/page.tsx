@@ -10,7 +10,7 @@ export default function ProductPage({ product }: ProductPageProps) {
    return (
       
       <div className='bg-gradient-to-r from-slate-100 to-gray-100 border border-gray-100 rounded-lg p-6 hover:shadow-lg hover:border-gray-100 transition-all transform hover:scale-105 mb-6 h-full flex flex-col cursor-pointer min-h-52'>
-         <Link
+         <Link data-productId={product!.id}
             href={`/dashboard/products/${product!.id}/productWithdrawn`}
             legacyBehavior
          >

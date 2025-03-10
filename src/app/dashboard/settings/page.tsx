@@ -2,9 +2,9 @@
 export default function SettingsPage() {
  
     return (
-      <div>
-      Settings PAGE
-   </div>
+      <h1>
+      Settings
+   </h1>
     );
   }
   

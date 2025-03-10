@@ -19,7 +19,7 @@ export default function ProductWithdrawn({ product }: ProductWithdrawnProps) {
             <p className='text-gray-700 mt-4 line-clamp-3'>Quantity: {availableQuantity}</p>
 
             <Form className="space-y-4" action={updateProduct}>
-                <div>
+                <div data-testid="withdraw">
                     <input type='hidden' name="id" value={product.id}></input>
                     <input
                         type="number" min="1" max={availableQuantity}
