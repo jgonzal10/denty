@@ -38,7 +38,11 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To run e2e test follow
+To run unit test follow
+```bash
+npm run test
+```
+To run E2E tests follow
 ```bash
 npm run dev
 npm run e2e
