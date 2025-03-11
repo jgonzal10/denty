@@ -28,7 +28,7 @@ export default async function Footer() {
             <div className="flex flex-col md:flex-row justify-between items-center">
                <div className="text-right"></div>
                <div className="flex space-x-4">
-                  <div className="hover:text-gray-400">Total Products {totalProducts}</div>
+                  <div className="hover:text-gray-400" >Total Products {totalProducts}</div>
                   <div className="hover:text-gray-400">Occupied Compartments {occupiedCompartments}</div>
                </div>
             </div>

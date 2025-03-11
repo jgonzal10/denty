@@ -17,9 +17,10 @@ export default async function ProductWithdrawnPage({ params }: { params: any }) 
 
             <Form className="space-y-4" action={updateProduct}>
                 <div>
+                    <input type='hidden' data-testid="quantity" value={availableQuantity}></input>
                     <input type='hidden' name="id" value={product.id}></input>
                     <input
-                        type="number" min="1" max={availableQuantity}
+                        type="number" data-testid="withdrawQuantity" min="1" max={availableQuantity}
                         className="w-full px-4 py-2 border
                                        border-gray-300 rounded-md
                                        focus:outline-none focus:ring-2
@@ -28,7 +29,7 @@ export default async function ProductWithdrawnPage({ params }: { params: any }) 
                     />
                 </div>
                 <div>
-                    <button
+                    <button data-testid="withdrawButton"
                         type="submit"
                         className="w-full px-4 py-2 text-white
                                        bg-indigo-500 rounded-md

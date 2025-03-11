@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Toothpaste",
-    "availableQuantity": 3
+    "availableQuantity": 2
   },
   {
     "id": "2",
@@ -77,6 +77,6 @@
   {
     "id": "16",
     "name": "Carrier",
-    "availableQuantity": 90
+    "availableQuantity": 386
   }
 ]

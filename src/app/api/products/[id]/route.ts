@@ -21,6 +21,7 @@ export async function GET(
       const body = await request.json();
     const { id } = await params;
     const withdrawQuantity= parseInt(body.withdrawQuantity)
+
     try{
         const products = getProducts()
 
