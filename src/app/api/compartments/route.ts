@@ -1,4 +1,4 @@
-import { occupiedCompartments } from "app/lib/productStoreClient";
+import { occupiedCompartments } from "@/app/lib/productStoreClient";
 
 export async function GET(){
     const res = occupiedCompartments();

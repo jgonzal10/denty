@@ -9,6 +9,8 @@ To perform withdrawals
 /products/[id]/productWithdrawn
 
 Additionally, the API routes were implemented using Next.js API, allowing seamless integration between the frontend and backend within the same framework.
+The api routes can be found in 
+src/api/
 
 To ensure the reliability and functionality of the application, I implemented end-to-end (e2e) testing using Playwright. This allowed me to simulate user interactions, including the withdrawal functionality.
 

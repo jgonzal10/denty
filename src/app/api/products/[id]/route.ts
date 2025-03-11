@@ -1,4 +1,4 @@
-import { getProducts, updateProductList } from "app/lib/productStoreClient";
+import { getProducts, updateProductList } from "@/app/lib/productStoreClient";
 
 export async function GET(
     request: Request,

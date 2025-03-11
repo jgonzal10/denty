@@ -1,4 +1,4 @@
-import { getProducts } from "app/lib/productStoreClient";
+import { getProducts } from "@/app/lib/productStoreClient";
 
 export async function GET(){
     const products = getProducts();

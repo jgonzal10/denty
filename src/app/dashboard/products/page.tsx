@@ -1,4 +1,4 @@
-import { Product } from "app/types/Product";
+import { Product } from "@/app/types/Product";
 import ProductPage from "./[id]/page";
 
 export default async function ProductsPage() {

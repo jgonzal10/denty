@@ -1,6 +1,6 @@
-import { Product } from "app/types/Product";
 import Form from "next/form";
 import { updateProduct } from "./actions";
+import { Product } from "@/app/types/Product";
 
 
 export default async function ProductWithdrawnPage({ params }: { params: any }) {
